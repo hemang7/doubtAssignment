@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <title>Hemang Codepen</title>
+
+</head>
+
+<body>
+    <div class="codepen" id="codepen">
+        <header class="header">
+            <div class="header__details">
+                <h1>New Pen</h1>
+            </div>
+            <button class="button" onclick="ChangeView()">Change View</button>
+            <button class="button">Save</button>
+            <button class="button">Login</button>
+    
+
+        </header>
+        <section class="main-content" id="main-contents">
+        <div class="code" id="main-code">
+            <div class="editor">
+                <header class="editor-header">
+                    <h3 class="editor-heading">HTML</h3>
+
+                </header>
+                <div class="editor-code" id="html-code">
+                    <textarea class="editor-input" type="code" id="html-editor"
+                        oninput="onInput()" placeholder="Write HTML code"></textarea>
+                </div>
+            </div>
+            <div class="editor">
+                <header class="editor-header">
+                    <h3 class="editor-heading">CSS</h3>
+
+                </header>
+                <div class="editor-code" id = "css-code">
+                    <textarea class="editor-input" id="css-editor" oninput="onInput()"  placeholder="Write CSS code"></textarea>
+                </div>
+            </div>
+            <div class="editor">
+                <header class="editor-header">
+                    <h3 class="editor-heading">JS</h3>
+
+                </header>
+                <div class="editor-code" id = "js-code">
+                    <textarea class="editor-input" id="js-editor" oninput="onInput()"  placeholder="Write Java Script code"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="preview" id="preview">
+            <iframe src="" frameborder="0" id="iframe"></iframe>
+        </div>
+    </section>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
+    <script src="script.js"></script>
+<script>
+    function onInput() {
+        var iframe = document.getElementById('iframe');
+        var html = document.getElementById('html-editor').value;
+        var css = document.getElementById('css-editor').value;
+        var js = document.getElementById('js-editor').value;
+
+        iframe.srcdoc = html + "<style>" + css + "</style>" + "<script>" + js + "<\/script>";
+        console.log(iframe.srcdoc);
+    }
+    function ChangeView(){
+        var code = document.getElementById('main-code');
+        var main =document.getElementById('main-contents');
+        main.className=="main-content"?main.className = "main-content-layout2":main.className="main-content"
+        code.className=="code"?code.className = "code-layout2":code.className="code"
+        
+    }
+</script>
+
+</html>

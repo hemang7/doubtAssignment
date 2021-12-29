@@ -1,0 +1,179 @@
+.nav-company-icon {
+    padding: 10px;
+}
+
+.inp-search-bar {
+    width: 500px;
+
+    background-color: #f7f7f7;
+    border-radius: 100px;
+    padding: 10px;
+    padding-left: 20px;
+    border-width: 1px;
+}
+
+.nav-Icons {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nav-bar {
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-searchBar {
+    display: flex;
+
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-search-icon {
+    position: absolute;
+    padding: 20px;
+}
+
+.nav-notification-icon {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.notification-count {
+    position: absolute;
+    background: coral;
+    padding: 5px;
+    border-radius: 100px;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    font-size: 12px;
+    margin-top: -20px;
+    margin-left: -20px;
+    justify-content: center;
+}
+
+.nav-group-count-notification {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-section {
+    height: 100%;
+    background-color: #f7f7f7;
+}
+
+.sidenav-list {
+    list-style-type: none;
+    display: contents;
+}
+
+.sidenav-item {
+    padding: 20px;
+    display: flex;
+    align-content: center;
+}
+
+.sidenav {
+    width:25%;
+    background-color: #343434;
+    color: white;
+    padding-top: 30px;
+
+}
+
+.active {
+    background-color: coral;
+}
+
+.feature-img img {
+    width: 355.4px;
+    object-fit: cover;
+    height: 100%;
+}
+
+.main-content-section {
+    padding-left: 0px;
+    width:74%;
+}
+
+.feature-img {
+    display: flex;
+}
+.content-section-2{
+    display: flex;
+    justify-content: space-between;
+    color: #646464;
+    
+}
+.content-section-2-headers{
+    display: flex;
+    align-items: center;
+    
+}
+.content-section-2-Information{
+    display: flex;
+    align-items: center;
+}
+.content-section-2-headers span{
+    margin-left: 10px;
+    color: coral;
+}
+.content-section-2-headers h3{
+    font-family: -webkit-body;
+font-weight: 200;
+letter-spacing: 2px;
+padding: 20px;
+    
+    
+padding-left: 20px;
+}
+.section-2{
+    background-color: white;
+}
+.content-section-2-Information-Address{
+    color:coral;
+    display: flex;
+    align-items: center;
+}
+.content-section-2-Information-Rating{
+    color: white;
+    background-color: coral;
+    text-align: center;
+    margin-left: 30px;
+    padding: 20px;
+}
+.section-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    color: #4b4c4c;
+font-family: -webkit-body;
+}
+.section-3-col-1{
+    width: 60%;
+    
+}
+.section-3-col-1 ul{
+    list-style-type: disc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.section-3-col-1 li{
+    width: 40%;
+}
+.section-3-col-1 li::marker{
+    color:coral;
+    width:10px;
+}
+.Section-3-col-2{
+    width: 38%;
+}
+.content-section-row{
+    display: flex;
+}

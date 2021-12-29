@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="nav-company-icon">
+            <img src="data:image/png;base64,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"
+                height=50 width=50 />
+        </div>
+        <div class="nav-searchBar">
+            <input type="text" class="inp-search-bar" placeholder="Search Here">
+            <i class="material-icons nav-search-icon">search</i>
+        </div>
+
+    </div>
+    <div class="content-section">
+        <div class="content-section-row">
+            <div class=" sidenav">
+                <ul class="sidenav-list">
+                    <li class="sidenav-item active"><i class="material-icons nav-notification-icon">home</i>HOTEL</li>
+                    <li class="sidenav-item"><i class="material-icons nav-notification-icon">flight</i>FLIGHT</li>
+                    <li class="sidenav-item"><i class="material-icons nav-notification-icon">car_rental</i>CAR RENTAL
+                    </li>
+                    <li class="sidenav-item"><i class="material-icons nav-notification-icon">tour</i>TOUR</li>
+                </ul>
+            </div>
+            <div class="main-content-section">
+                <div class="feature-img">
+                    <div class="">
+                        <img
+                            src="https://media.istockphoto.com/photos/mount-hood-oregon-picture-id1268487061?b=1&k=20&m=1268487061&s=170667a&w=0&h=3fHYwaImlqUETcjCnSV7YO2-PzCFvaX6VSQaiGfWqpc=">
+                    </div>
+                    <div class="">
+                        <img
+                            src="https://photographycourse.net/wp-content/uploads/2014/11/Landscape-Photography-steps.jpg">
+                    </div>
+                    <div class="">
+                        <img
+                            src="https://i.natgeofe.com/n/674c2808-e871-4195-aa93-357716f3c6b9/2019-travel-photo-contest-epic-landscapes031.jpg?w=636&h=424">
+                    </div>
+                </div>
+                <div class="section-2">
+                    <div class=" content-section-2">
+                        <div class="content-section-2-headers">
+                            <h3>The GRAND HYATT</h3>
+                            <span>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                            </span>
+                        </div>
+                        <div class="content-section-2-Information">
+                            <div class="content-section-2-Information-Address">
+                                <i class="material-icons nav-notification-icon">location_on</i><span>HIMACHAL PRADESH,
+                                    INDIA</span>
+                            </div>
+                            <div class="content-section-2-Information-Rating">
+                                <div>8.8</div>
+                                <div>750 VOTES</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="section-3">
+                    <div class="section-3-col-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                    <br/><p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                </p>
+                                <hr>
+                                <div>
+                                    <ul>
+                                        <li>Lorem Ipsum is simply </li>
+                                        <li>Lorem Ipsum is </li>
+                                        <li>Lorem Ipsum is simply dummy text of the printing</li>
+                                        <li>Lorem Ipsum is simply dummy text of the printing</li>
+                                        <li>Lorem Ipsum is simply dummy text of the printing</li>
+                                        <li>Lorem Ipsum is simply dummy text of the printing</li>
+                                        <li>Lorem Ipsum is simply dummy text of the printing</li>
+                                        <li>Lorem Ipsum is simply dummy text of the printing</li>
+                                        <li>Lorem Ipsum is simply dummy text of the printing</li>
+                                        <li>Lorem Ipsum is simply dummy text of the printing</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Section-3-col-2">
+                        <div class="section-3-col-2-row-1">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passa
+                                    </p>
+                                    <div>
+                                        <img/>
+                                        <p>hemang</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-3-col-2-row-1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+    <!-- <script src="https://kit.fontawesome.com/bc3647212e.js" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
